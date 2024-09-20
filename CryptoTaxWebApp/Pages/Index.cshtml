@@ -1,0 +1,35 @@
+﻿@page
+@model CryptoTaxWebApp.Pages.IndexModel
+@{
+    ViewData["Title"] = "USA Sales Tax by Zip Code";
+}
+
+<div style="text-align: center;">
+    <h1 class="display-4">USA Sales Tax by Zip Code</h1>
+    <p>Enter a valid U.S. zip code to get the sales tax information:</p>
+
+    <form method="post" style="margin-bottom: 20px;">
+        <div>
+            <label for="ZipCode">Zip Code:</label>
+            <input type="text" id="ZipCode" name="ZipCode" value="@Model.ZipCode" />
+            <input type="submit" value="Get Sales Tax Info" />
+        </div>
+    </form>
+
+    @if (Model.TaxData != null)
+    {
+        <h2>Sales Tax Information for @Model.ZipCode</h2>
+        <p><strong>State Sales Tax:</strong> @Model.TaxData.StateTax</p>
+        <p><strong>County Sales Tax:</strong> @Model.TaxData.CountyTax</p>
+        <p><strong>City Sales Tax:</strong> @Model.TaxData.CityTax</p>
+        <p><strong>Total Sales Tax:</strong> @Model.TaxData.TotalTax</p>
+    }
+    else
+    {
+        <p>No tax data available or invalid zip code.</p>
+    }
+
+    <footer style="margin-top: 50px;">
+        <p>copyright © 2024 Gio.</p>
+    </footer>
+</div>
