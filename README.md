@@ -8,9 +8,7 @@ This project can be a valuable tool for accounting firms looking to streamline a
 - **Real-Time Tax Rate Retrieval**: Automatically pulls state, county, and city tax rates based on zip code.
 - **Improved Accuracy**: Reduces human error by automating tax rate updates.
 - **Seamless Integration**: Can be integrated with other accounting tools to simplify tax calculations.
-- **Audit and Compliance**: Provides a clear audit trail and ensures compliance with tax regulations.
 - **Efficiency for Multi-State Businesses**: Allows firms to quickly retrieve and apply tax rates for clients operating in different locations.
-- **User-Friendly GUI**: Simple interface where users can input a zip code and view sales tax data instantly.
 
 ## GUI Screenshot
 Here’s the current gui web app:
