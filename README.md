@@ -1,7 +1,7 @@
 # USA Sales Tax Web App
 
 ## Overview
-I created this model as a web-based tool that allows users to retrieve real-time sales tax information by entering U.S. zip codes (I originally intended it to be used to retrieve crypto tax rates). This app utilizes the [RapidAPI's U.S.A Sales Tax Per Zip Code API](https://rapidapi.com/perodriguezl/api/u-s-a-sales-taxes-per-zip-code/playground/apiendpoint_ab28f165-0435-43c6-9ad8-c0911628ca3b)
+I created this model as a web-based tool that allows users to retrieve real-time sales tax information by entering U.S. zip codes (I originally intended it to be used to retrieve crypto tax rates). This app utilizes the RapidAPI's [U.S.A Sales Tax Per Zip Code API](https://rapidapi.com/perodriguezl/api/u-s-a-sales-taxes-per-zip-code/playground/apiendpoint_ab28f165-0435-43c6-9ad8-c0911628ca3b)
  to automatically pull accurate and up-to-date tax rates, including state, county, and city tax rates. 
 
 This project can be a valuable tool for accounting firms looking to streamline and potentially automate tax calculations! I believe that automation tools like this can help hundreds of accounting firms! I created this as a web app for demonstration purposes, but in practice I would turn it into a standalone application to possibly integrate it with a database backend.
