@@ -62,7 +62,6 @@ Open your browser and navigate to [http://localhost:5250](http://localhost:5250)
 This app integrates with the U.S.A Sales Taxes Per Zip Code API from RapidAPI. It pulls real-time tax data based on user input (zip code) and displays it on the web app.
 
 ## Contributing
-This was an economics project for a class of mine and the concept isn't new. If you want to use my framework please feel free to fork, and remember to connect it to your own api.
+This was an economics project for a class of mine - basic api framework for pulling information
 
-## License
-copyright @2024 Gio
+
